@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+	<div class="bgimage">
+		<div class="menu">
+			
+			<div class="leftmenu">
+				<h4>  </h4>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li id="fisrtlist"> HOME </li>
+					<li> Services </li>
+					
+					<li> Aboust us</li>
+					
+					
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="text">
+			
+        <h1> CYCLONE INTENSITY ESTIMATION </h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+          <label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile">
+          <button type="submit">Submit</button>
+		  
+        </form>
+      </div>
+	  <tbody>
+        <div>
+          <tr>
+          <h2>Intensity :{{b}} {{str}}</h2>
+        </div>
+        
+        
+      </tbody>
+	
+      
+		</div>
+
+	</div>
+
+</body>
+</html>
